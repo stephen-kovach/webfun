@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="dojonary">
+            <h1>Dojonary</h1>
+        </div>
+        <div class="search-bar">
+            <textarea name="search" id="search" cols="30" rows="1">Search</textarea>
+        </div>
+        <div class="login">
+            <button class="login-button" onclick="turnOff(this)">
+            Login</button>
+        </div>
+        <!-- header -->
+    </div>
+    <div class="main-contain">
+        <div class="left-panel">
+            <div class="ninja-box">
+                    <div class="ninja-name">
+                        <h3>ninja</h3>
+                    </div>
+                    <div class="definition">
+                        <div class="left-def">
+                            <p class="noun" >noun</p>
+                            <p class="plural">Plural: <span>ninjas</span></p>
+                        </div>
+                        <div class="right-def">
+                            <p>A practitioner skilled in the</p>
+                            <p><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                        </div>
+                    </div>
+                    <div class="like-box">
+                        <button class="like-button" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+
+                <!-- ninja-box -->
+            </div>    
+            <div class="ninja-box">
+                <div class="ninja-name">
+                    <h3>ninja</h3>
+                </div>
+                <div class="definition">
+                    <div class="left-def">
+                        <p class="noun" >noun</p>
+                        <p class="plural">Plural: <span>ninjas</span></p>
+                    </div>
+                    <div class="right-def">
+                        <p>A <a href="#">programmer</a> who breaks</p>
+                        <p>down problems with <a href="#">zen</a>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div>
+                <div class="like-box">
+                    <button class="like-button" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+
+            <!-- ninja-box -->
+        </div>   
+            <!-- left-panel -->
+        </div>
+
+        <div class="right-panel">
+            <div class="upper-right-box">
+                <p>Dojonary is</p>
+                <p>defined by <span>YOU</span></p>
+            </div>
+            <div class="lower-right-box">
+                <button class="def-button" onclick="turnOff(this)">Add Definiton</button>
+            </div>
+            <!-- right-panel -->
+        </div>
+        <!--main-contain -->
+    </div>
+</body>
+</html>
