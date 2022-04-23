@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="like-box">
-                    <button class="like-button" onclick="alert('Ninja was liked')">37 likes</button>
+                    <button class="like-button" onclick="alert('Nope! Click the other one')">37 likes</button>
                 </div>
 
             <!-- ninja-box -->
@@ -73,11 +73,18 @@
                 <p>defined by <span>YOU</span></p>
             </div>
             <div class="lower-right-box">
-                <button class="def-button" onclick="turnOff(this)">Add Definiton</button>
+                <button class="def-button" onclick='hide(this)'">Add Definiton</button>
             </div>
             <!-- right-panel -->
         </div>
         <!--main-contain -->
     </div>
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    <img src="ninja.png" alt="ninja" onclick="hide(this)">
+    <img src="ninja.png" alt="ninja" onclick="hide(this)">
+    <img src="ninja.png" alt="ninja" onclick="hide(this)">
+<script src="script.js"></script>
 </body>
 </html>
