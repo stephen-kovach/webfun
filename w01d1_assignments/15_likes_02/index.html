@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="the-main-contain">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <div class="middle">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="lower">
+            <div class="left-panel">
+                <img class="user-circle" src="./user-circle.png" alt="user-circle">
+                <a href="#">Add an avatar</a>
+                <p>Stephen Kovach</p>
+                <!-- left-panel -->
+            </div>
+            <div class="right-panel">
+
+                <div class="person-box">
+                    <div class="upper-box">
+                        <div class="inner-box box-1">
+                            <p>Neil M</p>
+                        </div>
+                        <div class="inner-box box-2">
+                            <!-- id=count1 -->
+                            <p id="count1">9 like(s)</p>
+                        </div>
+                        <div class="inner-box box-3">
+                            <!-- onclick=add1-->
+                            <button onclick="add1()" class="like-button">Like</button>
+                        </div>
+                        <!-- upper-box -->
+                    </div>
+                    <div class="lower-box">
+                        <p>I just set up this new discord bot, let me</p>
+                        <p>know what you all think. <a href="#">link</a></p>
+                    </div>
+                    <!-- person-box -->
+                </div>
+
+
+                <div class="person-box">
+                    <div class="upper-box">
+                        <div class="inner-box box-1">
+                            <p>Nicole K</p>
+                        </div>
+                        <div class="inner-box box-2">
+                            <p id="count2">12 like(s)</p>
+                        </div>
+                        <div class="inner-box box-3">
+                            <button onclick="add2()"  class="like-button">Like</button>
+                        </div>
+                        <!-- upper-box -->
+                    </div>
+                    <div class="lower-box">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                    <!-- person-box -->
+                </div>
+
+                <div class="person-box">
+                    <div class="upper-box">
+                        <div class="inner-box box-1">
+                            <p>Jim R</p>
+                        </div>
+                        <div class="inner-box box-2">
+                            <p id="count3">9 like(s)</p>
+                        </div>
+                        <div class="inner-box box-3">
+                            <button onclick="add3()" class="like-button">Like</button>
+                        </div>
+                        <!-- upper-box -->
+                    </div>
+                    <div class="lower-box">
+                        <p>I cant stop listening to the <a href="#">new album</a>.</p>
+                        <p>Who else is liking it?</p>
+                    </div>
+                    <!-- person-box -->
+                </div>
+
+
+                <!-- right-panel -->
+            </div>
+            <!-- lower -->
+        </div>
+        <!-- the-main-contain -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
