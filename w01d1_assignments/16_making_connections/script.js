@@ -69,6 +69,23 @@ function hidePhil() {
     console.log(YCCount);
 }
 
+function hideTodd2() {
+    byeTodd.remove();
+    CRCount--;
+    countCRC.innerText = CRCount;
+    console.log(CRCount);
+}
+
+function hidePhil2() {
+    byePhil.remove();
+    CRCount--;
+    countCRC.innerText = CRCount;
+    console.log(CRCount);
+
+}
+
+
+
 
 // var CRCount = 1
 // var countCRC = document.querySelector("#CRCount")
