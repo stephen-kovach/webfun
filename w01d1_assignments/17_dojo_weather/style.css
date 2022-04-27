@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+body{
+    height: 1200px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.banner{
+    background-color: lightskyblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    color: white;
+}
+
+ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 30px;
+    
+}
+
+
+li:hover{
+    cursor: pointer;
+}
+
+.san-jose-box{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* adjust margin to line up weather-box & forecast-box */
+    margin: 0 150px;
+    border-bottom: 3px solid black;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.temp-box{
+    background-color: white;
+    height: 100px;
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-box{
+    background-color: white;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.forecast-box{
+    background-color: lightgrey;
+    height: 400px;
+    width: 225px;
+    outline: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.high-low-box{
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+}
+
+.forecast-day{
+    font-size: 40px;
+}
+
+.forecast-description{
+    font-size: 25px;
+}
+
+.high{
+    font-size: 25px;
+    color: red;
+    display: inline-block;
+    /* width: 100px; */
+}
+
+.low{
+    font-size: 25px;
+    color: blue;
+    display: inline-block;
+    /* width: 100px; */
+}
+
+
+.cookie-box{
+    background-color: rgb(245, 239, 239);
+    height: 160px;
+    width: 1005px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 10px;
+    left: 146px;
+    border: 3px solid black;
+    /* padding: 0 150px; */
+}
+
+.cookie-img{
+    height:100px;
+}
+
+.cookie-line-bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cookie-line{
+    font-size: 20px;
+}
+
+.accept-button{
+    background-color: rgb(114, 178, 200);
+    padding: 5px 15px;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px black;
+}

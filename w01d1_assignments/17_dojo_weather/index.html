@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="alert('Loading Weather Report')" >Burbank</li>
+            <li onclick="alert('Just Look Outside!')" >Chicago</li>
+            <li onclick="alert('Loading Weather Report')" >Dallas</li>
+        </ul>
+
+        <!-- banner -->
+    </div>
+
+
+    <div class="san-jose-box">
+
+        <h2>San Jose</h2>
+        <div class="temp-box">
+            <p>show temperature in </p>
+            <select id="tempSelect" onchange="pickTemp(this)" name="show temperature in ">
+                <!-- how do I style with a superscript? -->
+                <option value="cel" id="cel" >&#176C</option>
+                <option value="far" id="far">&#176F</option>
+            </select>
+        <!-- temp-box (This is a justifiable div, right?) -->
+        </div>
+        <!-- san-jose-box -->
+    </div>
+
+
+    <div class="weather-box">
+
+        <div class="forecast-box">
+            <p class="forecast-day">Today</p>
+            <img src="./images/some_rain.png" alt="rain">
+            <p class="forecast-description" >some rain</p>
+            <div class="high-low-box" >
+                <p id="red1" class="high">24&#176</p>
+                <p id="blue1" class="low">18&#176</p>
+            </div>
+            <!-- forecast-box 1 -->
+        </div>
+
+        <div class="forecast-box">
+            <p class="forecast-day">Tomorrow</p>
+            <img src="./images/some_sun.png" alt="sun">
+            <p class="forecast-description" >some sun</p>
+            <div class="high-low-box" >
+                <p id="red2"class="high">27&#176</p>
+                <p id="blue2" class="low">19&#176</p>
+            </div>
+            <!-- forecast-box 2 -->
+        </div>
+
+        <div class="forecast-box">
+            <p class="forecast-day">Friday</p>
+            <img src="./images/some_clouds.png" alt="clouds">
+            <p class="forecast-description" >some clouds</p>
+            <div class="high-low-box" >
+                <p id="red3" class="high">21&#176</p>
+                <p id="blue3" class="low">16&#176</p>
+            </div>
+            <!-- forecast-box 3 -->
+        </div>
+
+        <div class="forecast-box">
+            <p class="forecast-day">Saturday</p>
+            <img src="./images/some_sun.png" alt="sun">
+            <p class="forecast-description" >some sun</p>
+            <div class="high-low-box" >
+                <p id="red4" class="high">26&#176</p>
+                <p id="blue4" class="low">21&#176</p>
+            </div>
+            <!-- forecast-box 4 -->
+        </div>
+
+
+        <!-- weather-box -->
+    </div>
+
+
+        <div id="byeBox" class="cookie-box">
+            <img class="cookie-img" src="./images/cookie.png" alt="cookie">
+            <div>
+                <p class="cookie-line-bold">Stop! Cookie time</p>
+                <p class="cookie-line" >We use cookies (sadly not the edible ones) to personalize</p>
+                <p class="cookie-line" >content and ads, to provide social media features and to</p>
+                <p class="cookie-line" >analyse out traffic.  <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="hideBox()" class="accept-button">I Accept</button>
+        </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
